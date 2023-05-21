@@ -4,7 +4,7 @@ import (
 	"github.com/bwmarrin/discordgo"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/gookit/goutil/jsonutil"
-	"go-discord/internal/conf"
+	"github.com/kunghim/go-kratos-discord/internal/conf"
 )
 
 type DiscordService struct {
@@ -33,4 +33,9 @@ func (s *DiscordService) UpdateMessage(session *discordgo.Session, message *disc
 	s.log.Infof("Discord session: %s\n", pretty)
 	msg, _ := jsonutil.Pretty(message)
 	s.log.Infof("Discord message: %s\n", msg)
+}
+
+func (s *DiscordService) Something(session *discordgo.Session, message *discordgo.MessageDelete) {
+	// todo
+
 }

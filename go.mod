@@ -1,4 +1,4 @@
-module go-discord
+module github.com/kunghim/go-kratos-discord
 
 go 1.18
 

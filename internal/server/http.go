@@ -1,7 +1,7 @@
 package server
 
 import (
-	"go-discord/internal/conf"
+	"github.com/kunghim/go-kratos-discord/internal/conf"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"

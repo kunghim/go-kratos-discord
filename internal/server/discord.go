@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/bwmarrin/discordgo"
-	"go-discord/internal/conf"
-	"go-discord/internal/service"
+	"github.com/kunghim/go-kratos-discord/internal/conf"
+	"github.com/kunghim/go-kratos-discord/internal/service"
 )
 
 type DiscordServer struct {
@@ -20,6 +20,8 @@ func NewDiscordService(c *conf.Server, discordService *service.DiscordService) *
 	}
 	session.AddHandler(discordService.CreateMessage)
 	session.AddHandler(discordService.UpdateMessage)
+	// 注册新的消息事件
+	session.AddHandler(discordService.Something)
 	return &DiscordServer{
 		discordService: discordService,
 		session:        session,

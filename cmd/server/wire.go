@@ -6,9 +6,9 @@
 package main
 
 import (
-	"go-discord/internal/conf"
-	"go-discord/internal/server"
-	"go-discord/internal/service"
+	"github.com/kunghim/go-kratos-discord/internal/conf"
+	"github.com/kunghim/go-kratos-discord/internal/server"
+	"github.com/kunghim/go-kratos-discord/internal/service"
 
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"

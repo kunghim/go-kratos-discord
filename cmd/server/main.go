@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
-	"go-discord/internal/server"
+	"github.com/kunghim/go-kratos-discord/internal/server"
 	"os"
 
-	"go-discord/internal/conf"
+	"github.com/kunghim/go-kratos-discord/internal/conf"
 
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/config"

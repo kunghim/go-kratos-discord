@@ -1,12 +1,12 @@
 server:
   http:
-    addr: 0.0.0.0:8010
+    addr: 0.0.0.0:8020
     timeout: 1s
   discord:
-    user_token: MTEwNTg5NjA3MTY0Mjc2MzI5Ng.GC_Mjb.VK57Lh5M3r0EMU44tguXiAkoLj9Pad-76tPHac
-    bot_token: MTEwOTU3NjgxNDMzMTk3MzgxMw.Ge46vs.PV5oXrUcfrXWjZwOfIpGmoHrOJZnpJRjVJ2PRM
-    server_id: "1105901846184333445"
-    channel_id: "1109303468692344843"
+    user_token: xxx
+    bot_token: xxx
+    server_id: "10101"
+    channel_id: "01010"
 data:
   database:
     driver: mysql
