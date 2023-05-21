@@ -27,8 +27,10 @@ server -conf ./configs
 ```
 启动成功
 ![img.png](doc/image/start_success.png)
+
 在频道内发送和修改消息
 ![img.png](doc/image/send.png)
+
 服务器打印消息
 ![img_1.png](doc/image/print.png)
 ## 项目拓展
