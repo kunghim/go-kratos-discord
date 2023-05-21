@@ -1,8 +1,13 @@
 # go-kratos-discord
+go-kratos-discord 是一个基于 [kratos](https://github.com/go-kratos/kratos) 框架的 discord 机器人，可以将 discord 机器人和自己的服务器进行关联，实现 discord 机器人和服务器的双向通信。
+其中与 discord 机器人的通信使用的是 [discordgo](https://github.com/bwmarrin/discordgo) 库。
 
-## Clone 项目
+## 安装
 ```
+# 克隆项目
 git clone https://github.com/kunghim/go-kratos-discord.git
+# 安装依赖
+make init
 ```
 ## 修改配置文件
 ```
@@ -93,3 +98,9 @@ func NewDiscordService(c *conf.Server, discordService *service.DiscordService) *
 ### 3. 获取用户 token
 在 discord 中，打开开发者工具，选择 Network 菜单栏，刷新页面，找到如下图所示的请求，点击请求，找到 Headers 菜单栏，找到 Request Headers 中的 Authorization 即为用户 token
 ![img_10.png](doc/image/img_10.png)
+
+---
+
+## 感谢
+- [kratos](https://github.com/go-kratos/kratos)
+- [discordgo](https://github.com/bwmarrin/discordgo)
