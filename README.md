@@ -67,40 +67,15 @@ func NewDiscordService(c *conf.Server, discordService *service.DiscordService) *
 	}
 }
 ```
-
-## 获取配置信息
-### 1. 创建机器人
-通过 https://discord.com/developers/applications 创建一个属于自己的机器人
-![img.png](doc/image/img.png)
-
-输入机器人名称并接受开发者协议
-![img_1.png](doc/image/img_1.png)
-
-创建成功后右边菜单栏选择 Bot，创建 token（请注意保管好自己的 token，勿在外网泄露！！！）
-![img_2.png](doc/image/img_2.png)
-
-创建 token 完成后，下方即可为机器人开启相关事件权限
-![img_4.png](doc/image/img_4.png)
-
-给机器人添加权限，选择 OAuth2 菜单栏，勾选 bot 和 adminstrator 。
-![img_3.png](doc/image/img_3.png)
-
-拉倒最下面复制链接到浏览器打开，选择服务器，即可将机器人添加到服务器中
-![img_5.png](doc/image/img_5.png)
-![img_6.png](doc/image/img_6.png)
-
-回到频道中就能看到刚刚创建的机器人了
-![img_7.png](doc/image/img_7.png)
-
-### 2. 获取服务器 id 和频道 id
-在 discord 中，选择要关联机器人的频道，复制链接，链接中的倒数第二串即为服务器 id，最后一串数字即为频道 id
-![img_8.png](doc/image/img_8.png)
-### 3. 获取用户 token
-在 discord 中，打开开发者工具，选择 Network 菜单栏，刷新页面，找到如下图所示的请求，点击请求，找到 Headers 菜单栏，找到 Request Headers 中的 Authorization 即为用户 token
-![img_10.png](doc/image/img_10.png)
+## 说明文档
+[说明文档（如何创建机器人，获取用户 token，服务器 id，频道 id 登）](https://www.yuque.com/pugongyingbushimeng/dsghkz/xvmzagiuqtriers6?singleDoc)
 
 ---
 
 ## 感谢
 - [kratos](https://github.com/go-kratos/kratos)
 - [discordgo](https://github.com/bwmarrin/discordgo)
+
+---
+### 任何疑问欢迎联系，加群讨论
+![img_3.png](doc/image/contact.png)
