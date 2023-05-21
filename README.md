@@ -26,6 +26,7 @@ server:
 server -conf ./configs
 ```
 启动成功
+
 ![img.png](doc/image/start_success.png)
 
 在频道内发送和修改消息
