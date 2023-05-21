@@ -33,6 +33,7 @@ server -conf ./configs
 ![img.png](doc/image/send.png)
 
 服务器打印消息
+
 ![img_1.png](doc/image/print.png)
 ## 项目拓展
 项目内置新消息（CreateMessage）和修改（UpdateMessage）消息事件函数，可根据自己的需求在 internal/service/discord.go 中进行拓展
