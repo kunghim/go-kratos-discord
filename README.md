@@ -78,4 +78,4 @@ func NewDiscordService(c *conf.Server, discordService *service.DiscordService) *
 
 ---
 ### 任何疑问欢迎联系，加群讨论
-![img_3.png](doc/image/contact.png)
+![img.png](doc/image/contact.png)
